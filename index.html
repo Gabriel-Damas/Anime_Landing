@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Anime</title>
+    <Link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="shortcut icon" href="img/background.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="" class="logo"><img src="img/logo.png"></a>
+            <ul class="navigation">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Séries</a></li>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Lançamentos</a></li>
+                <li><a href="#">Minha Lista</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+    </header>
+    <div class="banner">
+        <img src="img/background.jpg" class="bg">
+        <div class="content">
+            <h2>Black Clover</h2>
+            <h4>
+                <span>2023</span>
+                <span><i>+16</i></span>
+                <span>1h 45min</span>
+                <span>Ação</span>
+            </h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, autem animi
+                 optio temporibus eligendi, sit facilis maxime possimus officia iste rem beatae 
+                 tenetur qui ducimus ipsam sed a libero quaerat!</p>
+        <div class="buttons">
+            <a href="https://www.crunchyroll.com/pt-br/series/GRE50KV36/black-clover"><i class="fa fa-play" aria-hidden="true"></i>Acessar</a>
+            <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>Minha Lista</a>
+        </div>
+    </div>
+    <a class="play" onclick="toggleVideo()"><img src="img/play.png">Assistir</a>
+    </div>
+    <div class="trailer">
+        <video src="img/trailer.mp4"  controls="true" autopla="true"></video>
+        <img src="img/close.png" class="close" onclick="toggleVideo()">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
