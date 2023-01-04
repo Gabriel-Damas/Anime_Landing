@@ -96,6 +96,11 @@ header .logo:hover img{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    
+    background: url(img/background.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .banner .bg{
@@ -258,7 +263,8 @@ header .logo:hover img{
     }
 
     .banner{
-        padding: 100px 50px;
+        padding: 36px;
+        background-position: right;
     }
 
     .banner .play{
