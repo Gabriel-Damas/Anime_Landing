@@ -219,7 +219,7 @@ header .logo:hover img{
     backdrop-filter: blur(20px);
     visibility: hidden;
     opacity: 0;
-}
+} 
 
 .trailer.active {
     visibility: visible;
