@@ -220,7 +220,7 @@ header .logo:hover img{
     visibility: hidden;
     opacity: 0;
 }  
-
+ 
 .trailer.active {
     visibility: visible;
     opacity: 1;
